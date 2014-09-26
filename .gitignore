@@ -1,0 +1,10 @@
+.sass-cache
+.tmp
+/node_modules
+PROD.jpt
+git.sh
+index.html
+globeproject.sublime-workspace
+data/newtemplates.html
+data/newtemplates_files
+parts/globe
