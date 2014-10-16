@@ -1,3 +1,15 @@
-.article-graphic.HorizBarcharts {
-	
+.article-graphic.HorizBarcharts {	
+	margin-bottom:1em;
 }
+
+.graphichead {font-family:$sansSerifStrong; font-size:1.2em;}
+.subtitle {font-family:$sansSerif; font-size:0.9em; margin-top:-1em;}
+
+.row { margin-bottom:0.2em; padding-bottom:0.2em; border-bottom:1px dotted #DDD; width:100%; float:left;}
+	.Name { margin-bottom:0.2em; font-family:$sansSerif; width:100%; float:left; font-size:0.9em;}
+	.Value { float:left; display:inline; margin-right:1.5%;}
+		.Value span{ float:left; height:20px; background:rgba(237, 236, 228, 1); width:100%;}
+	.ValueNumber { margin-bottom:0.2em; font-family:$sansSerifStrong; float:left; font-size:0.9em; display:inline;}
+
+	.highlight .Value span {background:rgba(191, 97, 81, 1)!important;}
+	.highlight .Name{font-weight:bold;}

@@ -1,3 +1,27 @@
 .article-graphic.StatesMap {
-	
+	margin-bottom:1em;
 }
+
+.graphichead {font-family:$sansSerifStrong; font-size:1.2em;}
+.subtitle {font-family:$sansSerif; font-size:0.9em; margin-top:-1em;}
+
+#chart {width:100%; position:relative;}
+g { fill:#EEE; stroke:#FFF; stroke-width:1px; }
+
+#label {position:absolute; padding: 0.5em; background:#FFF; border:1px solid #EEE;
+	-moz-box-shadow:    0px 0px 2px 2px rgba(0,0,0,.1);
+ 	 -webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,.1);
+ 	 box-shadow:         0px 0px 2px 2px rgba(0,0,0,.1);	
+}
+	.statename {font-family: $sansSerif; font-size:0.8em; font-weight: lighter; text-transform: uppercase; width:100%; float:left;}
+	.value {font-family: $sansSerifStrong;}
+
+#key {float:left; margin-bottom:1em;}
+	.keyel {display:inline; float:right; margin-right:0.9em;}
+		.keysq {display:inline; float:left; margin-right:0.5em; width:15px; height:20px;}
+		.keytxt {display:inline; float:left; font-family: $sansSerif; font-weight:lighter; font-size:0.8em; text-transform: uppercase;}
+			.color0 {background:rgba(227, 225, 214, 1);}
+			.color1 {background:rgba(253, 205, 128, 1);}
+			.color2 {background:rgba(244, 148, 87, 1);}
+			.color3 {background:rgba(191, 97, 81, 1);}
+			.color4 {background:rgba(124, 31, 25, 1);}

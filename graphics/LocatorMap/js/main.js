@@ -7,11 +7,12 @@ var h, circle;
 var features = [];
 var namesNodes= [];
 var arrayValues = [];
+
 //Max and min zooms
 var minzoom = 1;
 var maxzoom = 14;
 
-(function() { globe.onDefine('window.jQuery && $(".article-graphic.DotMap").length', function() {
+(function() { globe.onDefine('window.jQuery && $(".article-graphic.LocatorMap").length', function() {
 
 	var masterSelector = '.article-graphic.DotMap';
 	var master = $(masterSelector);
@@ -33,21 +34,20 @@ var maxzoom = 14;
 	    defaultlon 
   	], defaultzoom); 
 
-  	L.tileLayer('http://{s}.tiles.mapbox.com/v3/gabriel-florit.ho649g43/{z}/{x}/{y}.png', {
+  	L.tileLayer('http://{s}.tiles.mapbox.com/v3/gabriel-florit.jp9a4kh6/{z}/{x}/{y}.png', {
 		minZoom: minzoom, //minimun zoom allowed
 		maxZoom: maxzoom //maximum zoom allowed
   	}).addTo(map);
 
+
+  	
+		      
+		      
   	
 
   	for (var i in data) {
+  			var popup = L.popup();
 			var latlong = [data[i].lat, data[i].lon];
-			var circlesize;
-			if (namesNodes.length > 3) {
-				circlesize=(data[i].Value*maxsize/largest);
-			} else {
-				circlesize=4;
-			}
 			circle = L.circleMarker(latlong, {
 				stroke: false,
 				color: fillColor,
@@ -55,11 +55,14 @@ var maxzoom = 14;
 				opacity: 0.1,
 				fill: true,
 				fillColor: fillColor, 
-				fillOpacity: 0.5,
-				radius:circlesize
+				fillOpacity: 1,
+				radius:4
 				}
 			);
-    
+    	popup
+		        .setLatLng(latlong)
+		        .setContent("<div class='popup'><div class='mapvalue'>" + data[i].Name + "</div> <div class='mapname'>"+data[i].Text+"</div></div>")
+		        .openOn(map);
     	circle.__data__ = data[i];
 
 	   	if( navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i) ){
@@ -70,7 +73,7 @@ var maxzoom = 14;
 		      
 		      popup
 		        .setLatLng(e.latlng)
-		        .setContent("<div class='popup'><div class='mapname'>" + datum.Name + "</div> <div class='mapvalue'>"+nWC(datum.Value)+"</div></div>")
+		        .setContent("<div class='popup'><div class='mapvalue'>" + datum.Name + "</div> <div class='mapname'>"+datum.Text+"</div></div>")
 		        .openOn(map);
 		    });
 
@@ -82,7 +85,7 @@ var maxzoom = 14;
 		      
 		      popup
 		        .setLatLng(e.latlng)
-		        .setContent("<div class='popup'><div class='mapname'>" + datum.Name + "</div> <div class='mapvalue'>"+nWC(datum.Value)+"</div></div>")
+		        .setContent("<div class='popup'><div class='mapvalue'>" + datum.Name + "</div> <div class='mapname'>"+datum.Text+"</div></div>")
 		        .openOn(map);
 		    });
     	}
@@ -93,9 +96,6 @@ var maxzoom = 14;
   
  	var layer = L.layerGroup(features);
   	layer.addTo(map);
-
-	
-
 
 }); }());
 
