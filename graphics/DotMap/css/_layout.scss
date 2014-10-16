@@ -8,11 +8,16 @@
 #map {width:96%; margin:1em 2%;}
 .mapname {font-family: Helvetica, Arial, sans-serif; font-weight: lighter;}
 .mapvalue {font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif; }
-.leaflet-popup-content-wrapper {border-radius: 0;}
 
+
+
+@media only screen and (max-width: 600px) {
+	.graphichead {font-family:$sansSerif; font-weight:bold;}
+	.mapvalue {font-family:$sansSerif; font-weight:bold;}
+}
 
 /* required styles */
-
+.leaflet-popup-content-wrapper {border-radius: 0;}
 .leaflet-map-pane,
 .leaflet-tile,
 .leaflet-marker-icon,

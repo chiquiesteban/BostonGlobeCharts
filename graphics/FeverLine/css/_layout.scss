@@ -19,3 +19,7 @@ table {margin:0;}
 			.color2 {border-top:3px solid rgba(250, 186, 84, 1);}
 			.color3 {border-top:3px solid rgba(227, 225, 214, 1);}
 			.color4 {border-top:3px solid rgba(181, 153, 125, 1);}
+
+@media only screen and (max-width: 600px) {
+	.graphichead {font-family:$sansSerif; font-weight:bold;}
+}

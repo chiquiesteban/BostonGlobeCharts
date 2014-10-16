@@ -25,3 +25,8 @@ g { fill:#EEE; stroke:#FFF; stroke-width:1px; }
 			.color2 {background:rgba(244, 148, 87, 1);}
 			.color3 {background:rgba(191, 97, 81, 1);}
 			.color4 {background:rgba(124, 31, 25, 1);}
+
+@media only screen and (max-width: 600px) {
+	.graphichead {font-family:$sansSerif; font-weight:bold;}
+	.value {font-family:$sansSerif; font-weight:bold;}
+}

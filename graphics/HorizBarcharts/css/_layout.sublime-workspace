@@ -1,0 +1,374 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"massele",
+				"masselections"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"recalled",
+				"recalledw"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"House",
+				"Housewife"
+			],
+			[
+				"Pistolet",
+				"Pistolet"
+			],
+			[
+				"teams",
+				"teamsOut"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"S",
+				"Sightseeing"
+			],
+			[
+				"fo",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"border",
+				"border-radius"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/esteban/Desktop/NewTemplates/graphics/DotMap/html/html.html",
+		"/Users/esteban/Desktop/wcdemog.html",
+		"/Users/esteban/Desktop/datashootings.js",
+		"/Users/esteban/Downloads/hurricane.html",
+		"/private/var/folders/2w/p0gdxt1n4tg74719r30gm64m0000gq/T/942fd82d-4cdb-43cd-8689-4e21ae00bf0a/francais/js/utils.js",
+		"/private/var/folders/2w/p0gdxt1n4tg74719r30gm64m0000gq/T/942fd82d-4cdb-43cd-8689-4e21ae00bf0a/francais/js/code.js",
+		"/private/var/folders/2w/p0gdxt1n4tg74719r30gm64m0000gq/T/942fd82d-4cdb-43cd-8689-4e21ae00bf0a/english/js/utils.js",
+		"/private/var/folders/2w/p0gdxt1n4tg74719r30gm64m0000gq/T/942fd82d-4cdb-43cd-8689-4e21ae00bf0a/js/utils.js",
+		"/private/var/folders/2w/p0gdxt1n4tg74719r30gm64m0000gq/T/942fd82d-4cdb-43cd-8689-4e21ae00bf0a/euskara/js/utils.js",
+		"/private/var/folders/2w/p0gdxt1n4tg74719r30gm64m0000gq/T/942fd82d-4cdb-43cd-8689-4e21ae00bf0a/js/code.js",
+		"/private/var/folders/2w/p0gdxt1n4tg74719r30gm64m0000gq/T/942fd82d-4cdb-43cd-8689-4e21ae00bf0a/english/js/code.js",
+		"/private/var/folders/2w/p0gdxt1n4tg74719r30gm64m0000gq/T/942fd82d-4cdb-43cd-8689-4e21ae00bf0a/english/map.html",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/May/NegativeEquity2/css/_layout.scss",
+		"/Users/esteban/Desktop/OceanDeep/css/_boilerplate-igraphic.scss",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/May/hockeytwitter/css/_layout.scss",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/May/hockeytwitter/PROD.jpt",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/May/hockeytwitter/js/globe.graphic.js",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/May/hockeytwitter/html/graphic.html",
+		"/Users/esteban/Desktop/LOttery/css/_boilerplate-igraphic.scss",
+		"/Users/esteban/Desktop/Books/css/_layout.scss",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/April/HappinessMap/css/_boilerplate-common.scss",
+		"/Users/esteban/Desktop/Projects/NBAdraft/test.html",
+		"/Users/esteban/Desktop/LOttery/html/graphic.html",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/April/HappinessMap/PROD.jpt",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/April/Home-values/js/globe.graphic.js",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/April/Gerald_Rd/js/globe.graphic.js",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/April/HappinessMap/html/js.html",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/April/HappinessMap/happiness.tsv",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/April/HappinessMap/us-10m.json",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/April/Gerald_Rd/css/layout.css",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/April/Gerald_Rd/html/graphic.html",
+		"/Volumes/Design Ready/1.NewsGraphics/10.Online graphics/2014/April/17marathonmap/PROD.jpt",
+		"/Users/chiquiesteban/Desktop/Template/code.js",
+		"/Users/chiquiesteban/Desktop/Template/index.html",
+		"/Users/chiquiesteban/Desktop/Template/style.css",
+		"/Users/chiquiesteban/Desktop/Sublime Text Build 3059.dmg",
+		"/usr/bin/NHI",
+		"/usr/bin/subl",
+		"/usr/bin/sbl"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"06",
+			"></div></div>",
+			":",
+			"nhelections",
+			"nmass",
+			"mass",
+			"umass",
+			"issues",
+			"beacon",
+			"lend",
+			"local",
+			"thu",
+			"dcdeleg",
+			"nhelections",
+			"masselections",
+			"issues",
+			"beacon",
+			"local",
+			"\"Year\":",
+			"\"recalls\"",
+			"\"sales\"",
+			"\"sold\"",
+			"\"recalled\"",
+			".00}",
+			"\",\"sold\"",
+			"\"recalled\":\"",
+			"\"sold\":\"",
+			",\"ratio\"",
+			"ROADMAP",
+			"Solaun",
+			"lez Colin",
+			"lez Coliná",
+			"lez Colino",
+			"BI2238",
+			"Gallego SA",
+			"Gallego",
+			"Lucas Rey Mat",
+			"Estanis",
+			"ctor Abraham",
+			"Díaz Fern",
+			"José Díaz Fern",
+			"src=\"img/",
+			"3px 3px",
+			"#ccc",
+			"#12ada8",
+			"This cha",
+			"this charts s",
+			"remove",
+			"'<div",
+			"'</div>",
+			"'+",
+			"March 1,20",
+			"March",
+			"04:00\"",
+			"\">Non-Negative<",
+			"\">Negative<",
+			"bostre",
+			"$('.lilbarb')",
+			"('.lilbarb').",
+			"hourchart",
+			"Negative",
+			"\"Tim\":",
+			"condor",
+			"#map",
+			"3px 3px",
+			"5px 6px",
+			"#ccc",
+			"+00:00",
+			"T02",
+			"T14",
+			"T15",
+			"T16",
+			"T17",
+			"T18",
+			"T19",
+			"T20",
+			"T21",
+			"T22",
+			"T23:",
+			"T01:",
+			"T00",
+			"T",
+			"01T",
+			">Elsewhere<",
+			"Elsewhere",
+			"			'<div class=\"inthemiddlehalf\">'+\n				'<div class=\"date\">May 2, 11:40 a.m.</div>'+",
+			"2014/02",
+			"/2014/0",
+			"/2014/02/",
+			"/Arts/",
+			"src=\"img/",
+			"src",
+			"\"width:'+(data[i].",
+			"'<div class=\"team1\">'+",
+			"team2",
+			"oods6",
+			"suns",
+			"Suns",
+			"console",
+			"console.",
+			"]);}",
+			"teamsNames",
+			".ODDS",
+			"ODDS",
+			"\"ODDS\"",
+			"\"odds\":",
+			"\"ODDS\"",
+			"var h",
+			"h",
+			"},",
+			"	\n",
+			"random",
+			"randome",
+			"In case you missed it...",
+			"Lucky Us",
+			"191, 97, 81",
+			"\">SHOW</div",
+			".2",
+			"<div class=\"buttonbook\" id=\"show",
+			"SHOW</div><img src",
+			"		\n",
+			"#ccc",
+			"3px 3px",
+			">SHOW<",
+			"<div class=\"recommendations\">",
+			"<div class=\"bookimg\"><img src=",
+			"<div class=\"recimg\"><img",
+			"Circus"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "_layout.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"js/libs/d3/d3.min.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

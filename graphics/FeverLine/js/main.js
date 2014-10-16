@@ -16,13 +16,15 @@ var color4 = 'rgba(181, 153, 125, 1)';
 var linew = 3;
 
 (function() { globe.onDefine('window.jQuery && $(".article-graphic.FeverLine").length', function() {
-	
+	checkSize ()
 	var masterSelector = '.article-graphic.FeverLine';
 	var master = $(masterSelector);
 	for (var i in data) {
 		categories.push(data[i].Name)
 	}
-	
+	$(window).resize(function(){
+		checkSize ()
+	})
 	$(function () {
 	    $('#container').highcharts({
 	    	chart: {
@@ -162,3 +164,11 @@ var linew = 3;
 
 	});
 }); }());
+
+function checkSize (){
+	if ($(window).width() < 601) {
+		$("#container").height(300)
+	} else {
+		$("#container").height(400)
+	}
+}

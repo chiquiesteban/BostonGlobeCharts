@@ -13,3 +13,9 @@
 
 	.highlight .Value span {background:rgba(191, 97, 81, 1)!important;}
 	.highlight .Name{font-weight:bold;}
+
+@media only screen and (max-width: 600px) {
+	.graphichead {font-family:$sansSerif; font-weight:bold;}
+	.ValueNumber {font-family:$sansSerif; font-weight:bold;}
+
+}
