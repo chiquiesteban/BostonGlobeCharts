@@ -1,14 +1,13 @@
 .article-graphic.DotMap {
 	margin-bottom:1em;
+	.graphichead {font-family:$sansSerifStrong; font-size:1.2em;}
+	.subtitle {font-family:$sansSerif; font-size:0.9em; margin-top:-1em;}
+
+	#map {width:96%; margin:1em 2%;}
+	.mapname {font-family: Helvetica, Arial, sans-serif; font-weight: lighter;}
+	.mapvalue {font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif; }
+
 }
-
-.graphichead {font-family:$sansSerifStrong; font-size:1.2em;}
-.subtitle {font-family:$sansSerif; font-size:0.9em; margin-top:-1em;}
-
-#map {width:96%; margin:1em 2%;}
-.mapname {font-family: Helvetica, Arial, sans-serif; font-weight: lighter;}
-.mapvalue {font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif; }
-
 
 
 @media only screen and (max-width: 600px) {
