@@ -7,8 +7,8 @@ This set of templates provides a quick, easy, Globe-styled way, to generate basi
 1. Download the zip and you'll have a ready-made GlobeGenerator project
 2. You can open the project with Sublime (Open project, look for globegraphic.sublime-project), there will be folders on the left side of the interface to access the different templates.
 3. Access it in the Terminal
-4. Write 'gulp' and enter
-5. If it doesn't work, you will probably have to run 'sudo npm install'
+4. Write `gulp` and enter
+5. If it doesn't work, you will probably have to run `sudo npm install`
 6. After the gulp, you will see a list of templates. Select the one you want to see and it will open a live server where you'll be able to see your advances.
 7. For basic charts, the only files you need to change are js/utils.js (for the data) and html/graphic.html (Headline, subtitle, source...)
 8. Once you're ready, stop the server in the Terminal using ctrl+c
