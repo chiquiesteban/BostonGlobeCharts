@@ -1,22 +1,21 @@
+// Use any time or step number reference in the fiedl Date;
+// Us the image links you want on the field Image
+// USe the text you want to include in the field 'Text'
+
+// If you don't want to have images, texts or dates, just leave the field empty or, for the images, write '0'
+
 var data=[
-	{Date:"March 24, 1815",Text:"The Handel and Haydn Society is founded 'to promote the love of good music and a better performance of it.'"},
-	{Date:"December 25, 1815",Text:"First public performance, King’s Chapel, Boston."},
-	{Date:"December 25, 1818",Text:"First public performance of Handel’s 'Messiah' in America."},
-	{Date:"February 16, 1819",Text:"First public performance of Haydn’s 'Creation' in America."},
-	{Date:"August 2, 1826",Text:"Performance at the memorial service for John Adams and Thomas Jefferson at Faneuil Hall (Daniel Webster, orator.)"},
-	{Date:"September 3, 1827",Text:"Lowell Mason, noted music educator and editor, elected president of H+H."},
-	{Date:"November 20, 1852",Text:"Performance for the dedication of Boston Music Hall, then the finest concert hall in America."},
-	{Date:"February 5, 1853",Text:"First performance of Beethoven’s Ninth Symphony in Boston."},
-	{Date:"January 1, 1863",Text:"Performance at the Emancipation Proclamation celebration (Ralph Waldo Emerson, orator)."},
-	{Date:"June 1, 1865",Text:"Performance at the memorial service for President Abraham Lincoln."},
-	{Date:"October 21, 1900",Text:"First Handel and Haydn Society concert in Boston’s new Symphony Hall."},
-	{Date:"October 29, 1955",Text:"First commercial recording, Handel’s 'Messiah.'"},
-	{Date:"1961",Text:"First television appearance on the award-winning series Accent on Music."},
-	{Date:"December 1963",Text:"First complete televised performance of Handel’s “Messiah” in the world, aired on National Educational Television."},
-	{Date:"1967",Text:"Newly appointed music director Thomas Dunn shifts H+H’s focus from exclusively choral music to early and contemporary choral and instrumental music. In 1972, Dunn integrates Historically Informed Performance by reducing the chorus size for 'Messiah' to 30 singers. (The chorus would be permanently reduced to chamber size in April 1981.)"},
-	{Date:"June 30, 1986",Text:"Christopher Hogwood appointed artistic director. This marks the beginning of the orchestra’s transition to period instruments."},
-	{Date:"July 1, 2001",Text:"Grant Llewellyn appointed music director. Christopher Hogwood named conductor laureate."},
-	{Date:"July 2006",Text:"Sir Roger Norrington appointed Artistic Advisor."},
-	{Date:"September 25, 2008",Text:"Harry Christophers appointed Artistic Director. (He begins his tenure in October 2009.)"},
-	{Date:"October 10, 2014",Text:"H+H opens its bicentennial season with a concert, a new recording of Handel’s “Messiah” conducted by Harry Christophers, and a book detailing the society’s rich history through essays and photographs."}
-	]
+	{"Date":"March 24, 1815", "Image":"http://c.o0bg.com/rf/image_585w/Boston/2011-2020/2014/10/20/BostonGlobe.com/Sports/Images/paz10.jpg","Text":"The Handel and Haydn Society is founded 'to promote the love of good music and a better performance of it.'"},
+	{"Date":"December 25, 1815", "Image":"http://c.o0bg.com/rf/image_960w/Boston/2011-2020/2014/10/20/BostonGlobe.com/Metro/Images/2014-10-06T152100Z_1211021112_GM1EAA61S7101_RTRMADP_3_HEALTH-EBOLA-USA.jpg", "Text":"First public performance, King’s Chapel, Boston."},
+	{"Date":"December 25, 1818", "Image":"http://c.o0bg.com/rf/image_960w/Boston/2011-2020/2014/10/20/BostonGlobe.com/Sports/Images/457519000.jpg","Text":"First public performance of Handel’s 'Messiah' in America."},
+	{"Date":"February 16, 1819", "Image":"http://c.o0bg.com/rf/image_960w/Boston/2011-2020/2014/10/20/BostonGlobe.com/Lifestyle/Images/breakfast-big.jpg","Text":"First public performance of Haydn’s 'Creation' in America."},
+	{"Date":"August 2, 1826", "Image":"http://c.o0bg.com/rf/image_960w/Boston/2011-2020/2014/10/20/BostonGlobe.com/Business/Images/profit-big.jpg","Text":"Performance at the memorial service for John Adams and Thomas Jefferson at Faneuil Hall (Daniel Webster, orator.)"},
+	{"Date":"September 3, 1827", "Image":"http://c.o0bg.com/rf/image_371w/Boston/2011-2020/2014/09/23/BostonGlobe.com/Business/Images/25forprofit(1)WillPuntarich16.jpg","Text":"Lowell Mason, noted music educator and editor, elected president of H+H."},
+	{"Date":"November 20, 1852", "Image":"http://c.o0bg.com/rf/image_371w/Boston/2011-2020/2014/10/20/BostonGlobe.com/Business/Images/grads-big-3974.jpg","Text":"Performance for the dedication of Boston Music Hall, then the finest concert hall in America."},
+	{"Date":"February 5, 1853", "Image":"http://c.o0bg.com/rf/image_960w/Boston/2011-2020/2013/07/25/BostonGlobe.com/National/Advance/Images/MARKEY008.jpg","Text":"First performance of Beethoven’s Ninth Symphony in Boston."},
+	{"Date":"January 1, 1863", "Image":"http://c.o0bg.com/rf/image_960w/Boston/2011-2020/2014/10/10/BostonGlobe.com/Metro/Images/cockatielphotos02.jpg","Text":"Performance at the Emancipation Proclamation celebration (Ralph Waldo Emerson, orator)."},
+	{"Date":"June 1, 1865", "Image":"http://c.o0bg.com/rf/image_371w/Boston/2011-2020/2014/10/10/BostonGlobe.com/Metro/Images/cockatielphotos03.jpg","Text":"Performance at the memorial service for President Abraham Lincoln."},
+	{"Date":"March 24, 1815", "Image":"http://c.o0bg.com/rf/image_960w/Boston/2011-2020/2014/10/20/BostonGlobe.com/Sports/Images/Boghosian_Headofasdf.jpg","Text":"The Handel and Haydn Society is founded 'to promote the love of good music and a better performance of it.'"},
+	{"Date":"January 1, 1863", "Image":"http://c.o0bg.com/rf/image_960w/Boston/2011-2020/2014/10/19/BostonGlobe.com/Sports/Images/Boghosian_HeadofCharles19_SPTS.jpg","Text":"Performance at the Emancipation Proclamation celebration (Ralph Waldo Emerson, orator)."},
+	{"Date":"June 1, 1865", "Image":"http://c.o0bg.com/rf/image_960w/Boston/2011-2020/2014/10/19/BostonGlobe.com/Sports/Images/Boghosian_HeadofCharles16_SPTS.jpg","Text":"Performance at the memorial service for President Abraham Lincoln."}
+]

@@ -1,39 +1,84 @@
+var count = 0;
+
 (function() { globe.onDefine('window.jQuery && $(".article-graphic.NextNext").length', function() {
 
 	var masterSelector = '.article-graphic.NextNext';
 	var master = $(masterSelector);
 
+	if (data.length > 15) {
+		$("#central").css("width", "40%");
+		$(".arrow").css("width", "27.5%")
+	} else if (data.length >25) {
+		$("#central").css("width", "60%");
+		$(".arrow").css("width", "17.5%")
+	} else if (data.length >35) {
+		$("#central").css("width", "80%");
+		$(".arrow").css("width", "7.5%")
+	} else {}
+
 	for (var i in data) {
-		$("#central").append('<div class="ball" id="b'+e+'"></div>');
+		$("#central").append('<div class="ball" id="b'+i+'"></div>');
 		$("#b0").addClass("select");
-		$("#date").append(data[0].Date);
-		$("#body").append(data[0].Text);
 		createBall();
 
 		$(window).resize(function(){
 			createBall()
 		})
+	}
+
+	$("#date").append(data[0].Date);
+	$("#body").append(data[0].Text);
+	if (data[0].Image != 0) {
+		$("#image").append("<img src="+data[0].Image+">");
+	}
+	
 
 		$(".ball").click(function(){
 			var i=this.id.split("b");
 			$("#date").empty();
 			$("#body").empty();
+			$("#image").empty();
 			$("#date").append(data[i[1]].Date);
 			$("#body").append(data[i[1]].Text);
+			if (data[i[1]].Image != 0) {
+				$("#image").append("<img src="+data[i[1]].Image+">");
+			}
 			$(".ball").removeClass("select");
 			$("#"+this.id).addClass("select");
-			where=i[1]
 		});
 
 		$("#next").click(function(){
-			where<data.length-1?(where++,$("#date").empty(),$("#body").empty(),$("#date").append(data[where].Date),$("#body").append(data[where].Text),$(".ball").removeClass("select"),$("#b"+where).addClass("select"),$("#next").css("color","#000"),$("#prev").css("color","#000")):($("#next").css("color","#FFF"),$("#prev").css("color","#000"))}),$("#prev").click(function(){where>0?(where--,$("#date").empty(),$("#body").empty(),$("#date").append(data[where].Date),$("#body").append(data[where].Text),$(".ball").removeClass("select"),$("#b"+where).addClass("select"),$("#prev").css("color","#000"),$("#next").css("color","#000")):($("#prev").css("color","#FFF")
-				$("#next").css("color","#000"))
+			if (count < (data.length-1)) {count++} else {count=(data.length-1)};
+			$("#date").empty();
+			$("#body").empty();
+			$("#image").empty();
+			$("#date").append(data[count].Date);
+			$("#body").append(data[count].Text);
+			if (data[count].Image != 0) {
+				$("#image").append("<img src="+data[count].Image+">");
+			}
+			$(".ball").removeClass("select");
+			$("#b"+count).addClass("select");
 		})
-	}
+
+		$("#prev").click(function(){
+			if (count > 0) {count--} else {count = 0};
+			$("#date").empty();
+			$("#body").empty();
+			$("#image").empty();
+			$("#date").append(data[count].Date);
+			$("#body").append(data[count].Text);
+			if (data[count].Image != 0) {
+				$("#image").append("<img src="+data[count].Image+">");
+			}
+			$(".ball").removeClass("select");
+			$("#b"+count).addClass("select");
+		})
+
 }); }());
 
 function createBall(){
-	$(".ball").css("width",80/data.length+"%").css("margin",5/data.length+"%");
-	var e=$("#b0").width();
-	$(".ball").css("height",e).css("border-radius",e/2)
+	$(".ball").css("width",70/data.length+"%").css("margin",15/data.length+"%");
+	var e = $("#b0").width();
+	$(".ball").css("height",e)
 }
