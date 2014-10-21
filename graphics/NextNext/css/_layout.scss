@@ -3,6 +3,7 @@
 	.graphichead {font-family:$sansSerifStrong; font-size:1.2em;}
 	.subtitle {font-family:$sansSerif; font-size:0.9em; margin-top:-1em;}
 
+	#content {position:relative;}
 	.minihead{text-align:center;float:left;width:100%;font-family:"Miller Headline Bold",georgia,Serif;font-size:25px;margin-bottom:.1em}
 	#head{width:100%;float:left;padding:10px;margin-bottom:15px;padding-top:25px}
 	#central{width:20%;float:left;margin:0 2.5%;display:inline}
@@ -16,6 +17,17 @@
 	#body{float:left;text-align:center;width:50%;margin:0 25%;margin-bottom:2em; font-family: $serifStrong;}
 	#image{float:left;text-align:center;width:50%;margin:0 25%;margin-bottom:2em}
 	img {width:100%;}
+
+	.stretch:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+	.stretch{display:inline-block}
+	.stretch{display:block}
+	* html .stretch{height:1px}
+
+	#tag {position:absolute; font-family: $sansSerif; font-size: 0.8em; padding: 0.5em; background:#FFF; border:1px solid #EEE;
+	-moz-box-shadow:    0px 0px 2px 2px rgba(0,0,0,.1);
+ 	 -webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,.1);
+ 	 box-shadow:         0px 0px 2px 2px rgba(0,0,0,.1);
+ 	}
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,9 +1,12 @@
 var count = 0;
+var pos, thex, they;
 
 (function() { globe.onDefine('window.jQuery && $(".article-graphic.NextNext").length', function() {
 
 	var masterSelector = '.article-graphic.NextNext';
 	var master = $(masterSelector);
+
+	var isFirefox = typeof InstallTrigger !== 'undefined';
 
 	if (data.length > 15) {
 		$("#central").css("width", "40%");
@@ -46,6 +49,34 @@ var count = 0;
 			$(".ball").removeClass("select");
 			$("#"+this.id).addClass("select");
 		});
+
+		if (Modernizr.touch) { } else {
+			
+				if(isFirefox == true) {
+					$(".ball").mouseover(function(evt){
+						var i=this.id.split("b");
+						$('#tag').remove();
+						pos = $("#content").offset();
+						thex = evt.pageX - pos.left;
+						they = evt.pageY - pos.top;
+						if (thex > $("#content").width() - 200) { thex = $("#content").width() - 200 };
+						$('#content').append('<div id="tag" style="top:'+they+'px; left:'+thex+'px;">'+data[i[1]].Date+'</div>')
+					})
+				} else {
+					$(".ball").mouseover(function(e){
+						var i=this.id.split("b");
+						$('#tag').remove();
+						pos = $("#content").offset();
+						thex = e.pageX - pos.left;
+						they = e.pageY - pos.top;
+						if (thex > $("#content").width() - 200) { thex = $("#content").width() - 200 };
+						$('#content').append('<div id="tag" style="top:50px; left:'+thex+'px;">'+data[i[1]].Date+'</div>')
+					})
+				}
+
+				$(".ball").mouseout(function(){$('#tag').remove() })
+		}
+
 
 		$("#next").click(function(){
 			if (count < (data.length-1)) {count++} else {count=(data.length-1)};
