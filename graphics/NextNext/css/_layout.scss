@@ -13,13 +13,14 @@
 	.arrow:hover{color:rgba(0,0,0,.3); cursor:pointer}
 	#prev{text-align:right}
 	#date{float:left;width:100%;text-align:center;margin-bottom:1em;font-family:"Benton Sans Bold",Helvetica,Arial,sans-serif}
-	#body{float:left;text-align:center;width:50%;margin:0 25%;margin-bottom:2em}
+	#body{float:left;text-align:center;width:50%;margin:0 25%;margin-bottom:2em; font-family: $serifStrong;}
 	#image{float:left;text-align:center;width:50%;margin:0 25%;margin-bottom:2em}
 	img {width:100%;}
 }
 
 @media only screen and (max-width: 600px) {
 	.graphichead {font-family:$sansSerif; font-weight:bold;}
+	#date{font-family:$sansSerif; font-weight:bold;}
 	#central{width:80%!important;}
 	.arrow{width:7.5%!important;}
 	#body{width:100%!important;margin:0!important; margin-bottom:1em!important;}
