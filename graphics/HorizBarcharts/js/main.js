@@ -23,7 +23,7 @@
 
 	// If you want to highlight a particular chart, change the ID. The first one will be highlighted by default
 
-	$("#r0").addClass("highlight")
+	$("#r"+(x-1)).addClass("highlight")
 
 
 }); }());

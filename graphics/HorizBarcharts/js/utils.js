@@ -19,3 +19,7 @@ var data =
 // Use a suffix or preffix if you want to include units or any other character after the value, in this example, we use m for millions. But can be left just as var suffix=""
 var preffix = "";
 var suffix = "%";
+
+// Do you want to highlight a particular bar?
+// Use the order number here to do it: 1,2, 3... 
+var x = 1;
