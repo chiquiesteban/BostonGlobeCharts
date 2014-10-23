@@ -1,0 +1,136 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'update',
+1 verbose cli   '-g',
+1 verbose cli   'generator-globegraphic' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose url raw generator-globegraphic
+5 verbose url resolving [ 'https://registry.npmjs.org/', './generator-globegraphic' ]
+6 verbose url resolved https://registry.npmjs.org/generator-globegraphic
+7 info trying registry request attempt 1 at 13:32:52
+8 verbose etag "EM7O5QYLG2U4WTM9E42QVAGW3"
+9 http GET https://registry.npmjs.org/generator-globegraphic
+10 http 304 https://registry.npmjs.org/generator-globegraphic
+11 silly registry.get cb [ 304,
+11 silly registry.get   { date: 'Thu, 23 Oct 2014 17:32:52 GMT',
+11 silly registry.get     server: 'Apache',
+11 silly registry.get     via: '1.1 varnish',
+11 silly registry.get     'last-modified': 'Thu, 23 Oct 2014 17:32:52 GMT',
+11 silly registry.get     'cache-control': 'max-age=60',
+11 silly registry.get     etag: '"EM7O5QYLG2U4WTM9E42QVAGW3"',
+11 silly registry.get     age: '0',
+11 silly registry.get     'x-served-by': 'cache-iad2122-IAD',
+11 silly registry.get     'x-cache': 'MISS',
+11 silly registry.get     'x-cache-hits': '0',
+11 silly registry.get     'x-timer': 'S1414085572.801355,VS0,VE169',
+11 silly registry.get     vary: 'Accept',
+11 silly registry.get     'content-length': '0',
+11 silly registry.get     'keep-alive': 'timeout=10, max=50',
+11 silly registry.get     connection: 'Keep-Alive' } ]
+12 verbose etag generator-globegraphic from cache
+13 info outdated updating [ [ '/usr/local/lib',
+13 info outdated     'generator-globegraphic',
+13 info outdated     '1.0.3',
+13 info outdated     '1.0.6',
+13 info outdated     '1.0.6',
+13 info outdated     '*' ] ]
+14 verbose install where,what [ '/usr/local/lib', [ 'generator-globegraphic@1.0.6' ] ]
+15 verbose cache add [ 'generator-globegraphic@1.0.6', null ]
+16 verbose cache add name=undefined spec="generator-globegraphic@1.0.6" args=["generator-globegraphic@1.0.6",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'generator-globegraphic@1.0.6',
+17 verbose parsed url   path: 'generator-globegraphic@1.0.6',
+17 verbose parsed url   href: 'generator-globegraphic@1.0.6' }
+18 verbose cache add name="generator-globegraphic" spec="1.0.6" args=["generator-globegraphic","1.0.6"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '1.0.6',
+19 verbose parsed url   path: '1.0.6',
+19 verbose parsed url   href: '1.0.6' }
+20 verbose addNamed [ 'generator-globegraphic', '1.0.6' ]
+21 verbose addNamed [ '1.0.6', '1.0.6' ]
+22 silly lockFile 0adf7bdb-generator-globegraphic-1-0-6 generator-globegraphic@1.0.6
+23 verbose lock generator-globegraphic@1.0.6 /Users/esteban/.npm/0adf7bdb-generator-globegraphic-1-0-6.lock
+24 verbose registry.get generator-globegraphic not expired, no request
+25 silly lockFile 0adf7bdb-generator-globegraphic-1-0-6 generator-globegraphic@1.0.6
+26 silly lockFile 0adf7bdb-generator-globegraphic-1-0-6 generator-globegraphic@1.0.6
+27 silly resolved [ { name: 'generator-globegraphic',
+27 silly resolved     version: '1.0.6',
+27 silly resolved     description: 'Yeoman generator',
+27 silly resolved     license: 'MIT',
+27 silly resolved     main: 'app/index.js',
+27 silly resolved     repository:
+27 silly resolved      { type: 'git',
+27 silly resolved        url: 'https://github.com/BostonGlobe/generator-globegraphic.git' },
+27 silly resolved     bugs: { url: 'https://github.com/BostonGlobe/generator-globegraphic/issues' },
+27 silly resolved     author:
+27 silly resolved      { name: 'Gabriel Florit',
+27 silly resolved        url: 'https://github.com/gabrielflorit' },
+27 silly resolved     engines: { node: '>=0.10.0' },
+27 silly resolved     scripts: { test: 'mocha' },
+27 silly resolved     files: [ 'app' ],
+27 silly resolved     keywords: [ 'yeoman-generator' ],
+27 silly resolved     dependencies:
+27 silly resolved      { chalk: '~0.4.0',
+27 silly resolved        lodash: '^2.4.1',
+27 silly resolved        'underscore.string': '^2.3.3',
+27 silly resolved        'yeoman-generator': '~0.16.0' },
+27 silly resolved     devDependencies: { mocha: '*' },
+27 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+27 silly resolved     readme: '# generator-globegraphic\n\nYeoman generator for a Boston Globe graphic. Supports SASS, Compass, Lodash templates, includes Bitbucket/GitHub integration. Concatenates/uglifies/minifies everything to one file.\n\nAlso known as **MAGIC**.\n\nPlease note: do not reproduce Boston Globe logos or fonts without written permission.\n\n## Prerequisites\n\n- Install [Node.js](http://nodejs.org/).\n- Install [hub](https://github.com/github/hub) (on OS X, using [Homebrew](http://brew.sh)): `brew install hub`.\n- Install [Yeoman](http://yeoman.io/): `sudo npm install -g yo`.\n- Install [Gulp](https://github.com/gulpjs/gulp): `sudo npm install -g gulp`.\n- Install this generator: `sudo npm install -g generator-globegraphic`.\n- Install various CSS utilities: `gem install sass compass breakpoint`.\n- If you want to commit your project to version control (highly recommended), you\'ll need to create a [GitHub](http://github.com) or [Bitbucket](http://bitbucket.org) account. Bitbucket offers unlimited free repositories. GitHub does not, but it is a much better tool. You decide.\n\n## Update\n\n- To update the generator: `sudo npm update -g generator-globegraphic`.\n\n## Creating a new project\n- Create the folder and cd into it: `mkdir myProject && cd $_`.\n- Invoke the generator: `yo globegraphic`.\n- Follow all prompts.\n- Once the generator finishes scaffolding, run `bower install` and `npm install`.\n- NOTE: if you get an error mentioning "Please try running this command again as root/Administrator.", try running the same command as **super-user**. E.g. `sudo bower install`.\n\n## Guide\n\nThe generator creates various folders and files. Here\'s a guide to the important bits.\n\n### Editing HTML\n\nPut your graphic\'s html in `html/graphic.html`, specifically inside `<div id=\'gf\'></div>`.\n\n### Editing CSS\n\nPut your CSS in `css/layout.css` (or `css/_layout.scss`, if you\'re using Sass).\n\n### Editing JavaScript\n\nPut your JavaScript in `js/globe.graphic.js`, specifically inside the `globe.graphic` function. If you need to load external libraries (e.g. [Leaflet](http://leafletjs.com/) or [D3](http://d3js.org/)), there are two ways to do it:\n\n1. Use [Bower](http://bower.io/) from the command line. For example, to install D3, run `bower install d3 --save`. For Leaflet: `bower install leaflet --save`.\n2. Download the library manually. Place it in the `js/libs` folder.\n\nEither way, you\'ll now have to reference the library in `html/js.html`. For example, for D3, add `<script src=\'js/libs/d3/d3.js\'></script>`.\n\n## Usage\n\n### Development\n\nThe following commands will start a server at [http://localhost:5000](http://localhost:5000). The generator will auto-reload the browser on file changes. Hit `control+c` to stop either server.\n\n- `gulp standalone` for **standalone** graphic.\n- `gulp homepage` for **homepage** graphic.\n\n### Production\n\nThe following commands will create a PROD.jpt. This file will contain everything inlined - HTML, CSS, JS - so you can copy+paste into Methode.\n\n- `gulp standalone-prod` for **standalone** graphic.\n- `gulp homepage-prod` for **homepage** graphic.\n\n## Extras\n\n### Sublime shortcut\n\n- Install [Sublime Text](http://www.sublimetext.com/3) and [setup](http://crabonature.pl/posts/20-sublime-text-3-on-os-x-terminal) the super-handy `subl` alias.\n- Now, from the command line, run `subl globegraphic.sublime-project`. Sublime Text will hide all non-essentials folders and files. Much cleaner!\n\n### Lodash templates\n\n- [Lodash templates are cool!](http://lodash.com/docs#template) And this generator supports them out of the box. Create a lodash template, place it in `js/templates`, and make sure to name it `*.template` (e.g. `js/templates/table.template`). The generator will automatically compile all templates to `js/templates/templates.js`. Add this file to `html/js.html`, and done! To reference the template: `window.JST[\'story.template\']({name: "gabriel"})`.\n\n## License\n\nMIT © [The Boston Globe](http://github.com/BostonGlobe)\n',
+27 silly resolved     readmeFilename: 'README.md',
+27 silly resolved     homepage: 'https://github.com/BostonGlobe/generator-globegraphic',
+27 silly resolved     _id: 'generator-globegraphic@1.0.6',
+27 silly resolved     _shasum: 'ba9a9df31664b100df456abdfcb8e4798dae2399',
+27 silly resolved     _from: 'generator-globegraphic@1.0.6',
+27 silly resolved     _resolved: 'https://registry.npmjs.org/generator-globegraphic/-/generator-globegraphic-1.0.6.tgz' } ]
+28 info install generator-globegraphic@1.0.6 into /usr/local/lib
+29 info installOne generator-globegraphic@1.0.6
+30 info /usr/local/lib/node_modules/generator-globegraphic unbuild
+31 info preuninstall generator-globegraphic@1.0.3
+32 info uninstall generator-globegraphic@1.0.3
+33 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-globegraphic@1.0.3
+34 info postuninstall generator-globegraphic@1.0.3
+35 info /usr/local/lib/node_modules/generator-globegraphic unbuild
+36 info preuninstall generator-globegraphic@1.0.3
+37 info uninstall generator-globegraphic@1.0.3
+38 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-globegraphic@1.0.3
+39 info postuninstall generator-globegraphic@1.0.3
+40 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/generator-globegraphic'
+40 error error rolling back  generator-globegraphic@1.0.6 { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-globegraphic']
+40 error error rolling back   errno: 3,
+40 error error rolling back   code: 'EACCES',
+40 error error rolling back   path: '/usr/local/lib/node_modules/generator-globegraphic' }
+41 error Error: EACCES, unlink '/usr/local/lib/node_modules/generator-globegraphic'
+41 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-globegraphic']
+41 error   errno: 3,
+41 error   code: 'EACCES',
+41 error   path: '/usr/local/lib/node_modules/generator-globegraphic' }
+42 error Please try running this command again as root/Administrator.
+43 error System Darwin 13.4.0
+44 error command "node" "/usr/local/bin/npm" "update" "-g" "generator-globegraphic"
+45 error cwd /Users/esteban/Desktop/NewTemplates
+46 error node -v v0.10.28
+47 error npm -v 1.4.9
+48 error path /usr/local/lib/node_modules/generator-globegraphic
+49 error code EACCES
+50 error errno 3
+51 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/generator-globegraphic'
+52 verbose exit [ 3, true ]

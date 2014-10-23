@@ -22,4 +22,4 @@ var suffix = "%";
 
 // Do you want to highlight a particular bar?
 // Use the order number here to do it: 1,2, 3... 
-var x = 1;
+var x = 3;

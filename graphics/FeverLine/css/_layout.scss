@@ -1,5 +1,5 @@
 .article-graphic.FeverLine {
-	margin-bottom:1em;
+
 	.graphichead {font-family:$sansSerifStrong; font-size:1.2em;}
 	.subtitle {font-family:$sansSerif; font-size:0.9em; margin-top:-1em;}
 	.highcharts-button {display:none;}
@@ -7,6 +7,7 @@
 	.valuett {font-family: $sansSerifStrong;}
 	.seriesname {font-family: $sansSerif; font-size:0.85em; text-transform:uppercase; }
 	table {margin:0;}
+	#container {margin-bottom:1em; width:100%; float:left;}
 
 	#key {width:100%; float:left;}
 		.keyel {display:inline; float:left; margin-right:0.9em;}
