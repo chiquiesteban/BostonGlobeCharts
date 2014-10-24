@@ -12,6 +12,9 @@ var arrayValues = [];
 var minzoom = 1;
 var maxzoom = 14;
 
+var fillColor = 'rgba(191, 97, 81, 1)';
+
+
 (function() { globe.onDefine('window.jQuery && $(".article-graphic.LocatorMap").length', function() {
 
 	var masterSelector = '.article-graphic.DotMap';

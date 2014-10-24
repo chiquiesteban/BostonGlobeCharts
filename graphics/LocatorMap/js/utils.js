@@ -9,9 +9,6 @@ var defaultlat = 42.325301;
 var defaultlon = -71.201885;
 var defaultzoom = 8;
 
-//Color value of the bubble. Please, don't change if it's not necessary. 
-var fillColor = 'rgba(191, 97, 81, 1)';
-
 // Take the coordinates from Google Maps.
 
 var data = [

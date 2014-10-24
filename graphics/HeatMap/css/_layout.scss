@@ -1,3 +1,31 @@
 .article-graphic.HeatMap {
-	
+	margin-bottom:1em;
+
+	.graphichead {font-family:$sansSerifStrong; font-size:1.2em;}
+	.subtitle {font-family:$sansSerif; font-size:0.9em; margin-top:-1em;}
+
+	#chart {position:relative;}
+	.row {width:100%; float:left; border-bottom:1px solid #FFF; border-bottom:1px solid #CCC; }
+	.nameRow{width:18%; float:left; display:inline; margin-right:2%; text-align:right; font-family: $sansSerif; font-weight: lighter; font-size: 0.85em; margin-top:15px;} 
+	.piececell {width:3.33%; display:inline; float:left; height:60px; font-family: $sansSerif; font-size:0.6em; }
+		.piececell:hover {cursor:pointer; background:#000;}
+	#charthead {padding-bottom:0.4em; border-bottom:1px solid #999; font-family: $sansSerifStrong!important; width:100%; float:left; text-transform: uppercase;}
+		#charthead .piececell {margin-bottom:-30px;margin-top:18px;}
+	#tag {position:absolute; padding: 0.5em; background:#FFF; border:1px solid #EEE;
+		-moz-box-shadow:    0px 0px 2px 2px rgba(0,0,0,.1);
+	 	 -webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,.1);
+	 	 box-shadow:         0px 0px 2px 2px rgba(0,0,0,.1);	
+	}
+	.name {font-family: $sansSerif; font-size:0.8em; font-weight: lighter; width:100%; float:left;}
+	.value {font-family: $sansSerifStrong;}
+
+	.stretch:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+	.stretch{display:inline-block}
+	.stretch{display:block}
+	* html .stretch{height:1px}
+}
+
+@media only screen and (max-width: 600px) {
+	.graphichead {font-family:$sansSerif; font-weight:bold;}
+	.value {font-family:$sansSerif; font-weight:bold;}
 }
