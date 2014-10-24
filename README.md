@@ -18,6 +18,21 @@ This set of templates provides a quick, easy, Globe-styled way, to generate basi
 # The templates
 
 ##Horizontal Bar Chart
+Just a regular bar chart. With the  possibility to highlight one value.
+##Feverlines
+One or up to five different variables. If you need to use more variables, consult with the graphics depatment, maybe we can think a better way to do it than a fever chart.
+##Locators
+Shows just one location and displays a label for more info by default. Map is zoomable.
+##Next-Next
+Create a simple timeline with texts and  Images (or not) or simply a graphic using step-by-step structure.
+##Dot maps
+Create a map with a dot per each location. You can include values for each point to differentiate by size. Map is zoomable.
+##Heatmaps
+Show the frequency of some data.
+##States maps
+Create a map with data per state. Divided in different customized steps, or creating a choropleth
+##Slider animations
+Create a series of images and move the slider (or the finger) to go through them.
 
 # Globe generator
 
