@@ -1,4 +1,4 @@
-##Behold the BostonGlobeCharts templates
+#The BostonGlobeCharts templates
 
 This set of templates provides a quick, easy, Globe-styled way, to generate basic charts. They can be used as a final produt or as a nice starting point to create something bigger.
 
@@ -15,8 +15,11 @@ This set of templates provides a quick, easy, Globe-styled way, to generate basi
 9. Gulp again, and select 'yes' when asked if you want to compile a JPT
 10. You'll see how a file called PROD.jpt is updated. Its content is the only thing you'll need to upload to Workbench.
 
+# The templates
 
-## Globe generator
+##Horizontal Bar Chart
+
+# Globe generator
 
 This project was generated with [generator-globeproject](https://github.com/BostonGlobe/generator-globeproject). Consult its [README](https://github.com/BostonGlobe/generator-globeproject) for more information.
 
