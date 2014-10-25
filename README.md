@@ -1,6 +1,6 @@
 #The BostonGlobeCharts templates
 
-This set of templates provides a quick, easy, Globe-styled way, to generate basic charts. They can be used as a final produt or as a nice starting point to create something bigger.
+This set of templates provides a quick, easy, Globe-styled way, to generate basic charts. They can be used as a final produt or as a nice starting point to create something bigger. The set of templates will grow in the coming weeks.
 
 ##How to use it
 
