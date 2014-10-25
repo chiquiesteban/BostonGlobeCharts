@@ -4,7 +4,7 @@ This set of templates provides a quick, easy, Globe-styled way, to generate basi
 
 ##How to use it
 
-1. Download the zip and you'll have a ready-made GlobeGenerator project
+1. Download the zip and you'll have a ready-made <a href="https://github.com/BostonGlobe/generator-globeproject">GlobeGenerator project</a>
 2. You can open the project with Sublime (Open project, look for globegraphic.sublime-project), there will be folders on the left side of the interface to access the different templates.
 3. Access it in the Terminal
 4. Write `gulp` and enter
