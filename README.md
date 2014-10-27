@@ -38,6 +38,8 @@ Shows just one location and displays a label for more info by default. Map is zo
 ##Next-Next
 Create a simple timeline with texts and  Images (or not) or simply a graphic using step-by-step structure. <a href="http://prdedit.bostonglobe.com/metro/2014/10/27/state-police-warn-southbridge-man-allegedly-national-crime-spree-may-returning-mass/yuzauYCymE3Z6aqzS1lSGI/story.html">Live example</a>
 
+<img src="https://cloud.githubusercontent.com/assets/2955186/4798373/25f77d36-5e13-11e4-9abc-bb1a984378a5.png">
+
 <img src="https://cloud.githubusercontent.com/assets/2955186/4780723/24b39706-5c75-11e4-92f1-7d338698de13.png">
 
 ##Dot maps
