@@ -66,7 +66,7 @@ var allNumbers = [];
 	}
 
 	if (Modernizr.touch) { 
-		$(".piececell").click(function(e){
+		$(".bub").click(function(e){
 			thelabel = (this.id).split("__");
 			thefinallabel = (thelabel[0]).split("_").join(" ");
 			thevalue = data[thelabel[1]][thelabel[0]];
@@ -80,7 +80,7 @@ var allNumbers = [];
 		})
 	} else {
 		if(isFirefox == true) {
-			$(".piececell").mouseover(function(evt){
+			$(".bub").mouseover(function(evt){
 				thelabel = (this.id).split("__");
 				thefinallabel = (thelabel[0]).split("_").join(" ");
 				thevalue = data[thelabel[1]][thelabel[0]];
@@ -93,7 +93,7 @@ var allNumbers = [];
 				$('#chart').append('<div id="tag" style="top:'+(they+20)+'px; left:'+(thex+20)+'px;"><div class="name">'+thefinallabel+'</div><div class="value">'+nWC(thevalue)+'</div></div>')	
 			})
 		} else {
-			$(".piececell").mouseover(function(e){
+			$(".bub").mouseover(function(e){
 				thelabel = (this.id).split("__");
 				thefinallabel = (thelabel[0]).split("_").join(" ");
 				thevalue = data[thelabel[1]][thelabel[0]];
@@ -108,7 +108,7 @@ var allNumbers = [];
 
 		}
 
-		$(".piececell").mouseout(function(){
+		$(".bub").mouseout(function(){
 			$("#tag").remove()
 		})
 	}
