@@ -1,0 +1,7 @@
+var data=[
+	{"Date":"September", "Image":"http://c.o0bg.com/rf/image_371w/Boston/2011-2020/2014/09/26/BostonGlobe.com/Metro/Images/south-big.jpg", "Text":"Police say Lewis is suspected in at least six sexual assaults since he fled Massachusetts in September. He allegedly arranged to meet several of his victims at hotels."},
+	{"Date":"October", "Image":"http://c.o0bg.com/rw/Boston/2011-2020/WebGraphics/Metro/BostonGlobe.com/2014/10/28Lewis/maplewis.jpg","Text":"Lewis may have been driving eastward from the Midwest. Authorities say they belive he was near Columbus, Ohio on Sunday, and had previously been seen as far west as Portland, Ore."},
+	{"Date":"Vehicle", "Image":"http://c.o0bg.com/rw/Boston/2011-2020/WebGraphics/Metro/BostonGlobe.com/2014/10/28Lewis/jeep.jpg","Text":"Lewis was believed to be driving a dark blue 2004 Jeep Grand Cherokee with fog lights. According to State Police, he drove his vehicle into the Hudson River before being apprehended in New York."},
+	{"Date":"Recent images", "Image":"http://c.o0bg.com/rw/Boston/2011-2020/WebGraphics/Metro/BostonGlobe.com/2014/10/28Lewis/recent.png","Text":"Police say surveillance cameras had captured recent images of Lewis."},
+	{"Date":"Capture", "Image":"","Text":"Lewis was apprehended in upstate New York after trying to flee from a traffic stop. "}
+]

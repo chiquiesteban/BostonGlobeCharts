@@ -1,0 +1,312 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"b",
+				"border-radius"
+			],
+			[
+				"sans",
+				"sansSerifStrong"
+			],
+			[
+				"circ",
+				"circlesize"
+			],
+			[
+				"colo",
+				"color1"
+			],
+			[
+				"val",
+				"valuesArray"
+			],
+			[
+				"fot",
+				"font-family"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"data",
+				"dataSeries"
+			],
+			[
+				"name",
+				"namesNodes"
+			],
+			[
+				"sansS",
+				"sansSerifStrong"
+			],
+			[
+				"fon",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/esteban/Desktop/Current Prrjects/LongwoodConstruction/css/_boilerplate-igraphic.scss",
+		"/Users/esteban/Desktop/Current Prrjects/HarvardMuseum/html/js.html",
+		"/Users/esteban/Desktop/Current Prrjects/HarvardMuseum/js/mobileui.js",
+		"/Users/esteban/Desktop/Current Prrjects/HarvardMuseum/PROD.jpt",
+		"/Users/esteban/Desktop/NewTemplates/graphics/DotMap/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HorizBarcharts/js/utils.js",
+		"/Users/esteban/Desktop/ReadyMadeJPTs/HorizBarCharts/horizbarcharts.jpt",
+		"/Users/esteban/Desktop/NewTemplates/graphics/LocatorMap/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StatesMap/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/js/utils.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HorizBarcharts/css/_layout.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/LocatorMap/js/utils.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/LocatorMap/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/DotMap/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/DotMap/js/utils.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/LocatorMap/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/LocatorMap/css/main.scss",
+		"/Users/esteban/Desktop/NewTemplates/graphics/LocatorMap/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StatesMap/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/DotMap/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HorizBarcharts/PROD.jpt",
+		"/Users/esteban/Desktop/NewTemplates/graphics/DotMap/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StatesMap/js/utils.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StatesMap/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HorizBarcharts/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/StatesMap/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/html/html.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HorizBarcharts/html/js.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/HorizBarcharts/js/main.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/js/libs/exporting.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/js/libs/highcharts.js",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/article.html",
+		"/Users/esteban/Desktop/NewTemplates/graphics/FeverLine/template.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"width:30px;",
+			"1);}",
+			"background:",
+			"\"keysq\" id=\"",
+			".estirar",
+			"<div class=\"inset-num\">",
+			"<div class=\"project-number\">",
+			"'),s.close(),e.location.hash=i)}}(),l}()}(t,this),function(t){e.matchMedia=e.matchMedia||function(t){var ",
+			"location",
+			"lev2",
+			"lev3",
+			"lev2",
+			"#details",
+			"(){\n",
+			"Text ",
+			".\"},",
+			"imgholder",
+			"wav",
+			"secondlevel-landscapes",
+			"n-s",
+			"islamic",
+			"n-g",
+			"secondlevel-islamic",
+			"audio",
+			"_lighting",
+			"pano",
+			"Calderwood",
+			"Porter",
+			"semit",
+			"src=\"img/",
+			" {",
+			"Ryan",
+			"<div class=\"blocktext\"",
+			"#ccc",
+			"wing",
+			"<div class=\"img\">	",
+			"<div class=\"imgholder estirar\">\n				<img",
+			"#gf",
+			"slider",
+			"#r",
+			"leaflet-popup",
+			"border-top:3px solid r",
+			"key",
+			"color",
+			"valuesArray",
+			"3px 3px",
+			"#ccc",
+			"WI",
+			"\"var_3\":12}",
+			",\"var_5\":",
+			"negati",
+			"tresh",
+			"',\n",
+			"color: '#999',",
+			"olor: ",
+			"	\n",
+			"to a clear shot",
+			"@@",
+			"\"var",
+			"subtit",
+			"hltitle"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "utils.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
