@@ -1,3 +1,42 @@
 .article-graphic.StackedBarchart {
-	
+	margin-bottom:1em;
+
+	.graphichead {font-family:$sansSerifStrong; font-size:1.2em;}
+	.subtitle {font-family:$sansSerif; font-size:0.9em; margin-top:-1em;}
+
+	.row {width:100%; float:left; margin-bottom:.75em;}
+		.concept {width:100%; float:left; margin-bottom:.25em; font-family: $sansSerifStrong; font-size:0.9em;}
+		.bar {width:100%; float:left; height:35px; }
+			.portion {display: inline; float:left; height:35px; width:10%; background:#EEE;}	
+				.portion span {padding:10px 0; margin-left:5px; font-family: $sansSerifStrong; font-size:.7em; display:inline; float:left;}
+				.portion:hover {cursor:pointer;}
+
+	#stackedBarchart {width:100%; float:left; margin-bottom:1em; position: relative;}
+	.color1 {background:rgba(220,105,81,1);}
+	.color2 {background:rgba(181, 153, 125, 1);}
+	.color3 {background:rgba(244, 148, 87, 1);}
+	.color4 {background:rgba(250, 186, 84, 1);}
+	.color5 {background:rgba(227, 225, 214, 1);}
+	.color6 {background:rgba(195, 213, 222, 1);}
+	.color7 {background:rgba(144, 177, 192, 1);}
+	.color8 {background:rgba(89, 136, 157, 1);}
+	.color9 {background:rgba(157, 186, 115, 1);}
+	.color10 {background:rgba(207, 215, 200, 1);}
+
+	#key {width:100%; float:left; margin-bottom:1em;}
+		.keyel {display:inline; float:left; margin-right:1em;}
+		.keysq {display:inline; float:left; margin-right:.5em; width:15px; height:15px;}
+		.keytext {display:inline; float:left; font-family: $sansSerif; font-size: .75em; font-weight: lighter; text-transform: uppercase;}
+
+	#tag {position:absolute; padding:0.5em 1em; background:#FFF; border:1px solid #CCC;}
+		.category {font-family: $sansSerif; font-size: .8em;}
+		.valueNum {font-family: $sansSerifStrong; font-size: .8em;}
+}
+
+@media only screen and (max-width: 600px) {
+
+	.graphichead {font-family:$sansSerif; font-weight:bold;}
+	.concept {font-family:$sansSerif; font-weight:bold;}
+	.valueNum {font-family:$sansSerif; font-weight:bold;}
+
 }
