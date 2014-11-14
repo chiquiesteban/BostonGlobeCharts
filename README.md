@@ -61,6 +61,10 @@ Create a series of images and move the slider (or the finger) to go through them
 
 <img src="https://cloud.githubusercontent.com/assets/2955186/4780721/24b03c46-5c75-11e4-976b-81715e3a6dd0.png">
 
+##Stacked barcharts
+Create a set of horizontal barcharts withn internal subdivisions.
+
+
 # Globe generator
 
 This project was generated with [generator-globeproject](https://github.com/BostonGlobe/generator-globeproject). Consult its [README](https://github.com/BostonGlobe/generator-globeproject) for more information.
