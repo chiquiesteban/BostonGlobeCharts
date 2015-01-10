@@ -87,18 +87,18 @@ var isFirefox = typeof InstallTrigger !== 'undefined';
 				pos = $("#slopegraph").offset();
 				thex = e.pageX - pos.left;
 				they = e.pageY - pos.top;
-				if (thex > $("#slopegraph").width() - 200) { thex = $("#slopegraph").width() - 200 };
-				if (they > $("#slopegraph").height() - 200) { they = $("#slopegraph").height() - 100 };				
-				$("#slopegraph").append('<div id="tag" style="top:'+they+'px; left:'+thex+'px;"><div class="category">'+data[i].Name+'</div><div class="valueNum"><span>'+namesNodes[1]+'</span> '+prefix+nWC(data[i][namesNodes[1]])+suffix+'</div><div class="valueNum"><span>'+namesNodes[2]+'</span> '+prefix2+nWC(data[i][namesNodes[2]])+suffix2+'</div></div>')
+				if (thex > $("#slopegraph").width() - 200) { thex = $("#slopegraph").width() - 400 };
+				if (they > $("#slopegraph").height() - 200) { they = $("#slopegraph").height() - 300 };				
+				$("#slopegraph").append('<div id="tag" style="top:'+(they+30)+'px; left:'+thex+'px;"><div class="category">'+data[i].Name+'</div><div class="valueNum"><span>'+namesNodes[1]+'</span> '+prefix+nWC(data[i][namesNodes[1]])+suffix+'</div><div class="valueNum"><span>'+namesNodes[2]+'</span> '+prefix2+nWC(data[i][namesNodes[2]])+suffix2+'</div></div>')
 			})
 			$('.line').mouseover(function(e){
     			$('#tag').remove();
 				pos = $("#slopegraph").offset();
 				thex = e.pageX - pos.left;
 				they = e.pageY - pos.top;
-				if (thex > $("#slopegraph").width() - 200) { thex = $("#slopegraph").width() - 200 };
-				if (they > $("#slopegraph").height() - 200) { they = $("#slopegraph").height() - 100 };				
-				$("#slopegraph").append('<div id="tag" style="top:'+they+'px; left:'+thex+'px;"><div class="category">'+data[i].Name+'</div><div class="valueNum"><span>'+namesNodes[1]+'</span> '+prefix+nWC(data[i][namesNodes[1]])+suffix+'</div><div class="valueNum"><span>'+namesNodes[2]+'</span> '+prefix2+nWC(data[i][namesNodes[2]])+suffix2+'</div></div>')
+				if (thex > $("#slopegraph").width() - 200) { thex = $("#slopegraph").width() - 400 };
+				if (they > $("#slopegraph").height() - 200) { they = $("#slopegraph").height() - 300 };				
+				$("#slopegraph").append('<div id="tag" style="top:'+(they+30)+'px; left:'+thex+'px;"><div class="category">'+data[i].Name+'</div><div class="valueNum"><span>'+namesNodes[1]+'</span> '+prefix+nWC(data[i][namesNodes[1]])+suffix+'</div><div class="valueNum"><span>'+namesNodes[2]+'</span> '+prefix2+nWC(data[i][namesNodes[2]])+suffix2+'</div></div>')
 			})
 		} else {
 			$('.line').mouseover(function(){
@@ -154,9 +154,9 @@ function showTag(id) {
 		pos = $("#slopegraph").offset();
 		thex = event.pageX - pos.left;
 		they = event.pageY - pos.top;
-		if (thex > $("#slopegraph").width() - 200) { thex = $("#slopegraph").width() - 200 };
-		if (they > $("#slopegraph").height() - 200) { they = $("#slopegraph").height() - 100 };				
-		$("#slopegraph").append('<div id="tag" style="top:'+they+'px; left:'+thex+'px;"><div class="category">'+data[i].Name+'</div><div class="valueNum"><span>'+namesNodes[1]+'</span> '+prefix+nWC(data[i][namesNodes[1]])+suffix+'</div><div class="valueNum"><span>'+namesNodes[2]+'</span> '+prefix2+nWC(data[i][namesNodes[2]])+suffix2+'</div></div>')
+		if (thex > $("#slopegraph").width() - 200) { thex = $("#slopegraph").width() - 400 };
+		if (they > $("#slopegraph").height() - 200) { they = $("#slopegraph").height() - 300 };				
+		$("#slopegraph").append('<div id="tag" style="top:'+(they+30)+'px; left:'+thex+'px;"><div class="category">'+data[i].Name+'</div><div class="valueNum"><span>'+namesNodes[1]+'</span> '+prefix+nWC(data[i][namesNodes[1]])+suffix+'</div><div class="valueNum"><span>'+namesNodes[2]+'</span> '+prefix2+nWC(data[i][namesNodes[2]])+suffix2+'</div></div>')
 			
 }
 
