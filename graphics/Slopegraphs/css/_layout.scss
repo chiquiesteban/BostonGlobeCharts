@@ -1,0 +1,45 @@
+.article-graphic.Slopegraphs {	
+	margin-bottom:1em;
+
+	.graphichead {font-family:$sansSerifStrong; font-size:1.2em;}
+	.subtitle {font-family:$sansSerif; font-size:0.9em; margin-top:-1em;}
+
+	#slopegraph {width:100%; float:left; margin:2em 0 1em 0; position:relative;}
+
+	.transp {display:inline; float:left; position: relative;}
+		#left {width:30%; border-right:1px dotted #999;}
+		#right {width:30%; border-left:1px dotted #999;}
+		#center {width:40%; position:relative;}
+
+	.dot {width:5px; height:5px; background:#666; position:absolute;  border-radius:50%;}
+		.lines1{right:-3px;}
+		.lines2{left:-3px;}
+
+	.textcol {position:absolute; text-align: center; font-family: $sansSerifStrong; margin-top:-2em;}
+		#leftcol {left:-2em;}
+		#rightcol {right:0; right:-2em; }
+
+	.svg {position:absolute;}
+	/*line:hover {cursor:pointer; stroke-width:3;}*/
+
+	.nametext {text-align: right;}
+	.nametextright {}
+	.nt {position:absolute; color:rgba(0,0,0,.2); font-family: $sansSerif; font-size: .8em}
+	.nt:hover {color:rgba(0,0,0,1); font-weight: bold; cursor: pointer;}
+
+	#tag {position:absolute; padding:0.5em 1em; background:#FFF; border:1px solid #CCC;}
+		.category {font-family: $sansSerifStrong; font-size: .8em; color:rgba(191, 97, 81, 1);}
+		.valueNum {font-family: $sansSerifStrong; font-size: .8em;}
+		.valueNum span {font-family: $sansSerif;}
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.graphichead {font-family:$sansSerif; font-weight:bold;}
+	.textcol {font-family:$sansSerif; font-weight:bold;}
+	.category {font-family:$sansSerif; font-weight:bold;}
+	.valueNum {font-family:$sansSerif; font-weight:bold;}
+	.valueNum span {font-family: $sansSerif;}
+}

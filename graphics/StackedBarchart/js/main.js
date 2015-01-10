@@ -75,7 +75,7 @@ var totalNodes = [];
 				for (var i in data) {
 					$("#id_"+i+"_"+thej).css("-moz-box-shadow","inset 0 0 3px #000000").css("-webkit-box-shadow","inset 0 0 3px #000000").css("box-shadow","inset 0 0 3px #000000")
 				}
-				$("#stackedBarchart").append('<div id="tag" style="top:'+they+'px; left:'+thex+'px;"><div class="category">'+nameNodes[thej].split("_").join(" ")+'</div><div class="valueNum">'+prefix+data[thei][nameNodes[thej]]+suffix+'</div></div>')
+				$("#stackedBarchart").append('<div id="tag" style="top:'+they+'px; left:'+thex+'px;"><div class="category">'+nameNodes[thej].split("_").join(" ")+'</div><div class="valueNum">'+prefix+nWC(data[thei][nameNodes[thej]])+suffix+'</div></div>')
 			})
 		} else {
 			$('.portion').mouseover(function(){
@@ -106,6 +106,12 @@ function showTag(id){
 	for (var i in data) {
 		$("#id_"+i+"_"+thej).css("-moz-box-shadow","inset 0 0 3px #000000").css("-webkit-box-shadow","inset 0 0 3px #000000").css("box-shadow","inset 0 0 3px #000000")
 	}
-	$("#stackedBarchart").append('<div id="tag" style="top:'+they+'px; left:'+thex+'px;"><div class="category">'+nameNodes[thej].split("_").join(" ")+'</div><div class="valueNum">'+prefix+data[thei][nameNodes[thej]]+suffix+'</div></div>')
+	$("#stackedBarchart").append('<div id="tag" style="top:'+they+'px; left:'+thex+'px;"><div class="category">'+nameNodes[thej].split("_").join(" ")+'</div><div class="valueNum">'+prefix+nWC(data[thei][nameNodes[thej]])+suffix+'</div></div>')
 
+}
+
+function nWC(x) {
+    var parts = x.toString().split(".");
+    parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return parts.join(".");
 }
