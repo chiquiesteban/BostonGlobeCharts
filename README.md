@@ -64,6 +64,8 @@ Create a series of images and move the slider (or the finger) to go through them
 ##Stacked barcharts
 Create a set of horizontal barcharts withn internal subdivisions.
 
+##Slopegraphs
+Nuff said
 
 # Globe generator
 
