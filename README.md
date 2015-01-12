@@ -65,7 +65,7 @@ Create a series of images and move the slider (or the finger) to go through them
 Create a set of horizontal barcharts withn internal subdivisions.
 
 ##Slopegraphs
-Nuff said
+Nuff said. <a href="http://www.bostonglobe.com/sports/2015/01/12/oregon-football-needs-fashion-one-more-win/Ii1IyoSdJ8LPFZKlww4EDL/story.html">Live example</a>
 
 # Globe generator
 
